@@ -5,5 +5,5 @@ $ sudo docker run -it --rm --net=host --runtime nvidia  -e DISPLAY=$DISPLAY -w /
 ```
 
 ```
-root@nano:/opt/nvidia/deepstream/deepstream-5.1# # deepstream-app -c samples/configs/deepstream-app/source1_usb_dec_infer_resnet_int8.txt 
+root@nano:/opt/nvidia/deepstream/deepstream-5.1# deepstream-app -c samples/configs/deepstream-app/source1_usb_dec_infer_resnet_int8.txt 
 ```
